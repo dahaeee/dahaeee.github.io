@@ -1,4 +1,5 @@
 body{
     background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
     background-size: cover;
+    font-family: 'Source Code Pro', monospace;
 }
