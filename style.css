@@ -11,5 +11,9 @@ html{
     height: 50px;
     line-height: 50px;
     text-align: right;
+
+}
+
+#menu ul li a{
     display: block;
 }
