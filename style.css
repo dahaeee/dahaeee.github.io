@@ -13,8 +13,12 @@ html{
 }
 
 #menu ul li a{
-    font-size:12px;
+    font-size:18px;
     font-weight:bold;
     text-decoration:none;
     color: inherit;
+}
+
+h1{
+    margin-left: 20px;
 }
