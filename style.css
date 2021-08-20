@@ -7,15 +7,11 @@ html{
     font-family: 'Source Code Pro', monospace;
 }
 
-#menu ul li{
-    float: left;
-    width: 25%;
-    height: 50px;
-    line-height: 50px;
-    text-align: right;
-
+#menu ul{
+    list-style: none;
 }
 
-#menu ul li a{
-    display: inline-block;
+#menu li{
+    float: left;
+    margin-right: 20px;
 }
