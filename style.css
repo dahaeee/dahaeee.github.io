@@ -2,9 +2,7 @@ html{
     background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
     background-size: cover;
     background-repeat:no-repeat;
-    font-family: 'Luckiest Guy', cursive;
-    font-family: 'Permanent Marker', cursive;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Freckle Face', cursive;
 }
 
 #menu ul{
