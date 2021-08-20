@@ -1,5 +1,6 @@
 html{
     background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
     background-size: cover;
+    background-repeat:no-repeat;
     font-family: 'Source Code Pro', monospace;
 }
