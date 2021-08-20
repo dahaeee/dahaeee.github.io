@@ -15,5 +15,5 @@ html{
 }
 
 #menu ul li a{
-    display: block;
+    display: inline-block;
 }
