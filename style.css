@@ -10,6 +10,6 @@ html{
     width: 25%;
     height: 50px;
     line-height: 50px;
-    text-align: center;
-    background: #98E0AD;
+    text-align: right;
+    display: block;
 }
