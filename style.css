@@ -3,7 +3,7 @@ html{
 }
 
 #menu ul{
-    float: right;
+    float: center;
     list-style: none;
     margin-right: 20px;
 }
