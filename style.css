@@ -12,5 +12,8 @@ html{
 }
 
 #menu ul li a{
-    font-size:12px;font-weight:bold;text-decoration:none
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    color: inherit;
 }
