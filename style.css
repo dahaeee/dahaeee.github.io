@@ -4,3 +4,12 @@ html{
     background-repeat:no-repeat;
     font-family: 'Source Code Pro', monospace;
 }
+
+#menu ul li{
+    float: left;
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #98E0AD;
+}
