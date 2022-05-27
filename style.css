@@ -2,6 +2,12 @@ html{
     font-family: 'Freckle Face', cursive;
 }
 
+a{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
 #menu ul{
     float: center;
     list-style: none;
@@ -23,3 +29,5 @@ h1{
     margin-left: 20px;
     text-align: center;
 }
+
+
