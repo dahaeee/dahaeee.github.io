@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Tiro+Devanagari+Marathi&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Sunflower&family=Tiro+Devanagari+Marathi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sunflower&display=swap');
 
 *{
     transition-duration: 0.8s;
@@ -11,19 +12,26 @@ html {
 } 
 
 body{
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Sunflower', sans-serif;
     line-height: 1.5em;
     font-weight: 300;
     margin: 0;
 }
 
-.section1 {
-    width: 100%;
-    height: 100vh;
-}
-.gnb {
-    margin-top: 3%;
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    height: 40px;
+}
+
+.gnb {
+    display: flex;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    height: 20px;
 }
 
 .gnb a {
@@ -31,15 +39,22 @@ body{
     text-decoration: none;
     color: #222;
     font-size: 180%;
+    padding: 20px;
 }
 
-.introduce {
-    margin: 15%;
+.section1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.introduce p {
-    text-align: center;
-    font-size: 700%;
+.section1 img {
+    display: block;
+    margin: auto;
+    width: 1080px;
+    height: 675px;
 }
 
 .section2 .pic {
@@ -48,11 +63,11 @@ body{
 .section2 .pic img {
     width: 15%;
     height: 15%;
-    margin-top: 100px;
+    margin-top: 200px;
+    padding: 30px;
 }
 
 .section2 .about {
-    margin: 10%;
     font-family: 'Sunflower', sans-serif;
     font-size: 90%;
 }

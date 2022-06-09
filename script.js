@@ -39,3 +39,19 @@ window.onload = function(){
         });
     });
     }
+
+    // 자기소개 입력
+
+const content = "안녕하세요! \n\n 저는 신입 프론트엔드 개발자입니다.";
+const text = document.querySelector(".about");
+let i = 0;
+
+function typing(){
+    let txt = content[i++];
+    text.innerHTML += txt=== "\n" ? "<br/>": txt;
+    if (i > content.length) {
+        text.textContent = "";
+        i = 0;
+    }
+}
+setInterval(typing, 200)
